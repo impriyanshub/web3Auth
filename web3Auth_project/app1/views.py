@@ -11,7 +11,9 @@ class CustomRetrieveAPIView(APIView):
     @method_decorator(cache_page(10))
     def get(self, request, *args, **kwargs):
 
-        # Write here your SQL queries
+        # We can modify and write here comprehensive SQL queries and other statements
+        # to prepare a response
+        # For Example:
         #
         # u1 = User.objects.get(id=kwargs.get('id'))
         # return Response({'name': u1.name, 'age': u1.age})
