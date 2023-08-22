@@ -1,4 +1,3 @@
-```markdown
 # Caching System Testing Project
 
 This project aims to test the functionality and performance of a caching system using Python and Django. The tests evaluate the caching system's behavior and its impact on response times.
@@ -74,6 +73,7 @@ Follow these steps to set up and run the caching system testing project on your 
    Start the Django development server on port 8000:
 
    ```sh
+   cd web3Auth_project/
    python manage.py runserver 8000
    ```
 
