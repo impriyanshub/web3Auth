@@ -73,6 +73,7 @@ Follow these steps to set up and run the caching system testing project on your 
    Start the Django development server on port 8000:
 
    ```sh
+   pipenv shell
    cd web3Auth_project/
    python manage.py runserver 8000
    ```
